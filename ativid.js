@@ -46,25 +46,25 @@
 
 // console.log(contarPares(arr));
 
-const pessoas = [
-    pessoa1 = {
-        nome:"Alex",
-        idade:29,
-     },
-    pessoa2 = {
-        nome: "Yoshi",
-        idade: 18,
-    },
-    pessoa3 = {
-        nome:"Mario",
-        idade:24,
-    },
-];
-for (let i = 0; i < pessoas.length; i++) {
-    if(pessoas[i].idade >= 21){
-    console.log(`${pessoas[i].nome} pode se  casar pois tem ${pessoas[i].idade} de idade`);
-    } else{
-        console.log(`${pessoas[i].nome} não pode se casar pois tem ${pessoas[i].idade} de idade`);
-    }
+// const pessoas = [
+//     pessoa1 = {
+//         nome:"Alex",
+//         idade:29,
+//      },
+//     pessoa2 = {
+//         nome: "Yoshi",
+//         idade: 18,
+//     },
+//     pessoa3 = {
+//         nome:"Mario",
+//         idade:24,
+//     },
+// ];
+// for (let i = 0; i < pessoas.length; i++) {
+//     if(pessoas[i].idade >= 21){
+//     console.log(`${pessoas[i].nome} pode se  casar pois tem ${pessoas[i].idade} de idade`);
+//     } else{
+//         console.log(`${pessoas[i].nome} não pode se casar pois tem ${pessoas[i].idade} de idade`);
+//     }
 
-}
+// }
