@@ -42,15 +42,75 @@
 
 // caixa.insertBefore(paragrafo2, paragrafo)
 
-const lista = document.querySelector("ul");
+// const lista = document.querySelector("ul");
 
-function verificarIdade(numero){
-    if(numero>=18){
-         return  lista.insertAdjacentHTML("beforeend", "<li>menor</li>");
-    }else {
+// function verificarIdade(numero){
+//     if(numero>=18){
+//          return  lista.insertAdjacentHTML("beforeend", "<li>menor</li>");
+//     }else {
        
-        return lista.insertAdjacentHTML("aferbegin", "<li>maior</li>");
-    }
-        }
+//         return lista.insertAdjacentHTML("aferbegin", "<li>maior</li>");
+//     }
+//         }
 
-verificarIdade(15);
+// verificarIdade(15);
+
+
+// const button = document.querySelector("button");
+
+// botao.addEventListener(`contextmenu`, (evento) => {
+//     console.log(`Clicou com o botão direito!`);
+//     ;
+// })
+
+// const botao = document.querySelector("button");
+
+// botao.addEventListener("click", evento => {
+//   const nome = prompt(`Qual o seu nome?`)
+//     alert(`Olá ${nome}!`)
+// })
+
+
+// const botao = document.querySelector("button");
+
+// document.addEventListener();
+
+// const formulario = document.querySelector("form");
+
+// formulario.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//     alert("Mensagem enviada!")
+//     formulario.reset();
+// })
+
+// const formulario = document.querySelector("form");
+
+// const nome = document.querySelector("#nome");
+
+// nome.addEventListener('focus', () => {
+// })
+ 
+// const botao = document.querySelector("button"); 
+
+// botao.addEventListener('click', () => {
+//     if (botao.style.backgroundColor === 'white') {
+//     	botao.style.backgroundColor = "blue";   
+//         document.body.style.backgroundColor = 'white';  
+//     } else {
+//         botao.style.backgroundColor = "white";
+//         document.body.style.backgroundColor = 'blue';
+//     }
+// })
+
+
+const botoes = document.querySelectorAll("button");
+
+botoes.forEach(function(botao){
+    botao.addEventListener('click', (evento) =>{
+        if (evento.target.id === "maior"){
+            alert("Você é maior de idade!");
+        } else{
+            alert("Você é menor de idade!");
+        }
+    });
+})
