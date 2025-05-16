@@ -103,14 +103,16 @@
 // })
 
 
-const botoes = document.querySelectorAll("button");
+// const botoes = document.querySelectorAll("button");
 
-botoes.forEach(function(botao){
-    botao.addEventListener('click', (evento) =>{
-        if (evento.target.id === "maior"){
-            alert("Você é maior de idade!");
-        } else{
-            alert("Você é menor de idade!");
-        }
-    });
-})
+// botoes.forEach(function(botao){
+//     botao.addEventListener('click', (evento) =>{
+//         if (evento.target.id === "maior"){
+//             alert("Você é maior de idade!");
+//         } else{
+//             alert("Você é menor de idade!");
+//         }
+//     });
+// })
+
+
